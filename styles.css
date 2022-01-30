@@ -1,0 +1,180 @@
+body{
+  margin: 0;
+  text-align: center;
+   font-family: 'Merriweather', serif;
+   color: #40514E;
+   background-color: #FFB6B9;
+    overflow-x: hidden;
+  }
+   .hidden-thing {
+     position: absolute;
+     left: 100%;
+     width: 50px;
+     height: 50px;
+     opacity: 0;
+   }
+
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  color: #11999E;
+  font-weight: bold;
+}
+h4{
+  font-size: 30px;
+  font-family: cursive;
+  color: #11999E;
+  margin: 0;
+
+}
+h2{
+  font-size: 50px;
+  margin: 0;
+  font-family: cursive;
+  padding-bottom: 30px;
+  color: #11999E;
+  padding-top: 10px;
+}
+h3{
+  margin: 0;
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+p{
+  margin-bottom: 20px;
+}
+.wait{
+  background-color: transparent;
+  border-top: 15px dotted #40514E;
+  width:150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.top-container {
+  background-color:#EAF6F6;
+  position: relative;
+  padding-top: 50px;
+  width: 100%;
+}
+.middle-container{
+  padding-bottom: 50px;
+  margin: 50px 0 0 0;
+  background-color: #FFB6B9;
+  color: #FF0000;
+}
+.top-left-side{
+ text-align: right;
+}
+.top-right-side{
+  text-align:justify;
+  text-align-last: left;
+}
+.bottom-left-side{
+  text-align:justify;
+  text-align-last: left;
+}
+.bottom-right-side{
+text-align: left;
+}
+.bottom-container{
+  background-color: #ECDBBA;
+  color: #40514E;
+  bottom: 100%;
+  width: 100%;
+}
+.full{
+  text-decoration: underline;
+}
+.stack{
+  text-decoration: underline;
+}
+.top-cloud{
+  margin-top: 0;
+  position:relative;
+  left:350px;
+  top: 0;
+}
+.bottom-cloud{
+  position: relative;
+  left:-50px;
+  bottom:330px;
+}
+.mountain{
+  height: 80%;
+  position: relative;
+  bottom: 0;
+  right: 100px;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+.intro2{
+  width: 40%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.button1{
+   border-radius: 12px;
+   padding: 9px 20px;
+   background-color: white;
+  color:#11999E ;
+  border: 2px solid #4CAF50;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.button1:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  font-weight: bold;
+}
+.twitter{
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+}
+.twitter:hover{
+  color: #55ACEE;
+}
+.linkedin{
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+}
+.linkedin:hover{
+  color: #007bb5;
+}
+.github{
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+}
+.github:hover{
+  color: black;
+  opacity: 0.7;
+}
+.fa-fa{
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+@media(max-width:990px){
+  body{
+    text-align: center;
+    padding:inherit;
+    margin: auto;
+  }
+  .top-left-side , .bottom-right-side{
+    text-align: left;
+  }
+  .top-right-side , .bottom-left-side{
+    text-align: left;
+}
+}
